@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --color-bg: #ef534e;
+  --color-letter-bg: #fff8e1;
+  --color-accent: #ffa726;
+  --color-text: #212121;
+  --color-red: #c1423e;
+  --color-secondary: #e5e5e5;
+  --box-shadow: #aaaaaa;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  font-family: "Cardo" serif;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  color: var(--color-red);
+  font-size: 3.5rem;
+}
+
+.letter {
+  background-color: var(--color-letter-bg);
+  color: var(--color-text);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  font-size: 1rem;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.letter-text {
+  p {
+    font-size: 1rem;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  p {
+    color: var(--color-red);
+  }
+}
